@@ -19,7 +19,7 @@ repositories {
 
 dependencies {
 //compileOnly "org.spigotmc:spigot-api:1.12.2-R0.1-SNAPSHOT"
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(dir: 'lib', include: ['*.jar'])
 }
 
 def targetJavaVersion = 8
