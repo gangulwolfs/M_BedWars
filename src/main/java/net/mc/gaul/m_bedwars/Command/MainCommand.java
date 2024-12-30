@@ -1,5 +1,6 @@
 package net.mc.gaul.m_bedwars.Command;
 
+import net.mc.gaul.m_bedwars.Command.SubCommands.ArenaCommand;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
