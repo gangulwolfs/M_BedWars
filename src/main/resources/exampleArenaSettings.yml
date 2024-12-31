@@ -1,0 +1,29 @@
+#
+#
+#
+#
+#
+#
+
+arena:
+  generator:
+    1:
+    2:
+    3:
+    4:
+  teamlist:
+    red:
+    blue:
+    green:
+    yellow:
+  spawn:
+    red:
+    blue:
+    green:
+    yellow:
+  gen:
+    iron:
+    gold:
+    diamond:
+  specLoc:
+  teamMaxsize: 4
