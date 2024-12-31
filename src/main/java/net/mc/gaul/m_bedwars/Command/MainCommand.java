@@ -1,6 +1,8 @@
 package net.mc.gaul.m_bedwars.Command;
 
 import net.mc.gaul.m_bedwars.Command.SubCommands.ArenaCommand;
+import net.mc.gaul.m_bedwars.Command.SubCommands.LobbyCommand;
+import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -13,6 +15,7 @@ public class MainCommand implements CommandExecutor {
 
     public MainCommand(){
         commandMap.add(new ArenaCommand());
+        commandMap.add(new LobbyCommand());
     }
 
     @Override
@@ -26,18 +29,21 @@ public class MainCommand implements CommandExecutor {
             }
             if (args.length < 1){
                 sender.sendMessage("/bw arena help - 아레나와 관련된 도움말을 출력합니다.");
+                sender.sendMessage("/bw lobby help - 아레나와 관련된 도움말을 출력합니다.");
                 sender.sendMessage("/bw stats [player] - 해당 유저의 스테이터스를 확인합니다.");
                 return false;
             }
+            if(!sender.hasPermission(map.hasPermission())){
+                sender.sendMessage("펄미션 권한이 없습니다.");
+                return false;
+            }
             if(args[0].equalsIgnoreCase(map.getName())){
-                if(sender.hasPermission(map.hasPermission())){
-                    try {
-                        map.command(sender, label, args);
-                        return true;
-                    } catch (Exception e) {
-                        throw new RuntimeException(e);
+                try {
+                    map.command(sender, label, args);
+                    return true;
+                } catch (Exception e) {
+                    Bukkit.getLogger().warning(e.getMessage());
                     }
-                }
             }
         }
         return false;
