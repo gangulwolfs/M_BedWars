@@ -1,7 +1,6 @@
 package net.mc.gaul.m_bedwars.Command;
 
-import net.mc.gaul.m_bedwars.Command.SubCommands.ArenaCommand;
-import net.mc.gaul.m_bedwars.Command.SubCommands.LobbyCommand;
+import net.mc.gaul.m_bedwars.Command.SubCommands.*;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -16,9 +15,10 @@ public class MainCommand implements CommandExecutor {
     public MainCommand(){
         commandMap.add(new ArenaCommand());
         commandMap.add(new LobbyCommand());
-        commandMap.add(new LobbyCommand());
-        commandMap.add(new LobbyCommand());
-        commandMap.add(new LobbyCommand());
+        commandMap.add(new JoinCommand());
+        commandMap.add(new LeaveCommand());
+        commandMap.add(new reJoinCommand());
+        commandMap.add(new TestCommand());
     }
 
     @Override

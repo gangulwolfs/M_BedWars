@@ -1,0 +1,8 @@
+name: M_BedWars
+version: '1.2-SNAPSHOT'
+main: net.mc.gaul.m_bedwars.M_BedWars
+author: AllGet
+
+commands:
+  bw:
+    aliases: [ bedwars ]

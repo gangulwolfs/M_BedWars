@@ -1,6 +1,6 @@
 package net.mc.gaul.m_bedwars.API.Shop.Entity;
 
-import net.minecraft.server.v1_5_R3.MobEffect;
+
 import net.minecraft.server.v1_5_R3.World;
 
 public class EntityVillager extends net.minecraft.server.v1_5_R3.EntityVillager {

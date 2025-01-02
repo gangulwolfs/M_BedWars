@@ -1,0 +1,349 @@
+#
+#
+# SHOP.
+#
+#
+
+
+
+
+
+shop:
+  blocks:
+    id: 24
+    name: '&fBlocks'
+    lore:
+      - Protect against the opponents
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 1
+          id: 24
+      '2':
+        buy:
+          type: bronze
+          amount: 7
+          id: 121
+      '3':
+        buy:
+          type: iron
+          amount: 1
+          id: 42
+      '4':
+        buy:
+          type: bronze
+          amount: 15
+          id: 89
+      '5':
+        buy:
+          type: bronze
+          amount: 4
+          id: 20
+  armor:
+    id: 303
+    name: '&bArmor'
+    lore:
+      - Protect against the opponents
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 1
+          id: 298
+          ench:
+            - 0:1
+            - '34:1'
+      '2':
+        buy:
+          type: bronze
+          amount: 1
+          id: 300
+          ench:
+            - 0:1
+            - '34:1'
+      '3':
+        buy:
+          type: bronze
+          amount: 1
+          id: 301
+          ench:
+            - 0:1
+            - '34:1'
+      '4':
+        buy:
+          type: bronze
+          amount: 3
+          id: 334
+      '5':
+        buy:
+          type: iron
+          amount: 1
+          id: 303
+          ench:
+            - 0:1
+            - '34:1'
+      '6':
+        buy:
+          type: iron
+          amount: 3
+          id: 303
+          ench:
+            - 0:2
+            - '34:1'
+      '7':
+        buy:
+          type: iron
+          amount: 7
+          id: 303
+          ench:
+            - 0:3
+            - '34:1'
+  tools:
+    id: 274
+    name: '&eTools'
+    lore:
+      - Break from the blocks of the opponents
+      - Also help you breaking down the bed
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 4
+          id: 270
+          ench:
+            - '32:1'
+            - '34:1'
+      '2':
+        buy:
+          type: iron
+          amount: 2
+          id: 274
+          ench:
+            - '32:1'
+            - '34:1'
+      '3':
+        buy:
+          type: gold
+          amount: 1
+          id: 257
+          ench:
+            - '32:3'
+            - '34:1'
+  swords:
+    id: 283
+    name: '&4Swords'
+    lore:
+      - Attack your opponents and nudge them down
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 8
+          id: 280
+          name: '&b&oCudgel'
+          ench:
+            - '19:1'
+      '2':
+        buy:
+          type: iron
+          amount: 1
+          id: 283
+          ench:
+            - '16:1'
+            - '34:1'
+      '3':
+        buy:
+          type: iron
+          amount: 3
+          id: 283
+          ench:
+            - '16:2'
+            - '34:1'
+      '4':
+        buy:
+          type: gold
+          amount: 5
+          id: 267
+          ench:
+            - '16:2'
+            - '34:2'
+            - '19:1'
+  bows:
+    id: 261
+    name: '&aBows'
+    lore:
+      - Shoot your enemies from their blocks
+    offers:
+      '1':
+        buy:
+          type: gold
+          amount: 3
+          id: 261
+          name: '&bBOW LVL 1'
+          ench:
+            - '51:1'
+      '2':
+        buy:
+          type: gold
+          amount: 7
+          id: 261
+          name: '&bBOW LVL 2'
+          ench:
+            - '51:1'
+            - '48:1'
+      '3':
+        buy:
+          type: gold
+          amount: 13
+          id: 261
+          name: '&bBOW LVL 3'
+          ench:
+            - '51:1'
+            - '48:1'
+            - '49:1'
+      '4':
+        buy:
+          type: gold
+          amount: 1
+          id: 262
+  food:
+    id: 260
+    name: '&9Food'
+    lore:
+      - With food you can satisfy your hunger
+      - Important to restore life
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 1
+          id: 260
+      '2':
+        buy:
+          type: bronze
+          amount: 2
+          id: 320
+      '3':
+        buy:
+          type: iron
+          amount: 1
+          id: 354
+      '4':
+        buy:
+          type: gold
+          amount: 3
+          id: 322
+  chests:
+    id: 54
+    name: '&5Chests'
+    lore:
+      - In boxes you can gather recources
+    offers:
+      '1':
+        buy:
+          type: iron
+          amount: 1
+          id: 54
+      '2':
+        buy:
+          type: gold
+          amount: 1
+          id: 130
+          name: Teamchest
+  potions:
+    id: 373
+    name: '&bPotions'
+    lore:
+      - Use potions to give yourself advantages
+    offers:
+      '1':
+        buy:
+          type: iron
+          amount: 3
+          id: 373
+          data: 8261
+      '2':
+        buy:
+          type: iron
+          amount: 5
+          id: 373
+          data: 8229
+      '3':
+        buy:
+          type: iron
+          amount: 7
+          id: 373
+          data: 8194
+      '4':
+        buy:
+          type: gold
+          amount: 8
+          id: 373
+          data: 8201
+  special:
+    id: 46
+    name: '&6Special'
+    lore:
+      - Nice things which you can use absolutely sometimes
+    offers:
+      '1':
+        buy:
+          type: bronze
+          amount: 1
+          id: 65
+      '2':
+        buy:
+          type: bronze
+          amount: 16
+          id: 30
+      '4':
+        buy:
+          type: iron
+          amount: 3
+          id: 289
+          name: Warp Powder
+      '5':
+        buy:
+          type: iron
+          amount: 5
+          id: 287
+          name: Trap
+      '6':
+        buy:
+          type: iron
+          amount: 2
+          id: 346
+      '7':
+        buy:
+          type: iron
+          amount: 1
+          id: 259
+      '8':
+        buy:
+          type: gold
+          amount: 3
+          id: 46
+      '9':
+        buy:
+          type: gold
+          amount: 13
+          id: 368
+      '10':
+        buy:
+          type: gold
+          amount: 3
+          id: 369
+          name: Safety Platform
+      '11':
+        buy:
+          type: gold
+          amount: 18
+          id: 385
+          name: Gravity grenade
+      '12':
+        buy:
+          type: iron
+          amount: 10
+          id: 345
+          name: Player tracker
